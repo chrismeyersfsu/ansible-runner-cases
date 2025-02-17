@@ -1,6 +1,6 @@
 # ZIP Payload Cut Short
 
-`ansible-runner transmit <playbook_dir> -p main.yml` produces the below. That is consumed by `ansible-playbook worker`.
+`ansible-runner transmit <playbook_dir> -p main.yml` produces the below. That is consumed by `ansible-runner worker`.
 ```
 {"kwargs": ...}
 {"zipfile": 4}
